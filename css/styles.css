@@ -1,0 +1,121 @@
+/* http://meyerweb.com/eric/tools/css/reset/ v2.0 | 20110126   License: none (public domain)*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* Ende reset*/
+@import url(http://fonts.googleapis.com/css?family=Signika);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+body {
+  background: none repeat scroll 0 0 #FFFFFF;
+  color: #000000;
+  font: 100%/1.3 'Droid Serif',serif;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+#header {
+  background-color: #404040;
+  color: #FFFFFF;
+  font-family: 'Signika',serif;
+  font-size: 50px;
+  height: 120px;
+  margin: 0 auto 25px;
+  max-width: 100%;
+  width: 1020px;
+}
+
+#header div#logo {
+  padding-left: 25px;
+  padding-top: 25px;
+  width: 130px;
+}
+
+div#logo a,
+div#logo a:link,
+div#logo a:visited
+{
+	color: #fff;
+	text-decoration: none;
+}
+
+div.datenschutz
+{
+	margin-bottom: 10px;
+	font-size: 12px;
+}
+
+#content {
+  margin: 0 auto;
+  max-width: 100%;
+  padding: 0 10px;
+  width: 1000px;
+}
+
+h1 {
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+label[for="input1"], 
+div.label {
+  clear: left;
+  float: left;
+  width: 20%;
+}
+
+div.value {
+  float: right;
+  text-align: left;
+  width: 80%;
+  min-width: 800px;
+}
+
+form#mform
+{
+	margin-top: 50px;
+}
+
+div.clear
+{
+	clear: both;
+}
