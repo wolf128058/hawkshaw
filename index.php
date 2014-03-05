@@ -1,7 +1,7 @@
 ﻿<?php
 	/*	HAWKSHAW	Browsererkennung
 		Author:		jonas.hess@revier.de
-		Licence:	GNU	
+		Licence:	GPLv3	
 	*/
 	
 include 'browser.php';
